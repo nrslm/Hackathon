@@ -1,0 +1,35 @@
+.DcoWorker{
+    margin: 0 auto;
+    max-width: 1028px;
+    width: 100%;
+}
+
+.dwHeader{
+    border: 1px solid black;
+    padding: 14px;
+    border-radius: 14px;
+}
+
+.cuCoWorking{
+    display: flex;
+    padding: 12px 14px;
+    border: 1px solid rgb(74, 176, 244);
+    justify-content: space-around;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.custemerRoyal{
+    margin: 24px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.container-custemer{
+    border-top: none;
+    border: 1px solid rgb(74, 176, 244);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}

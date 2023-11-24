@@ -9,6 +9,7 @@ import Navbar from "./components/Navbar"
 import SignIn from './components/SignIn';
 import ErrorPage from './pages/ErrorPage';
 import Login from './components/Login';
+import DcoWorker from './components/dasbordco-worker/DcoWorker';
 // Import Desctope design with login and register input
 
 const products = [
@@ -379,6 +380,8 @@ function App() {
           ))}
         </ul>
       )}
+
+      <DcoWorker/>
 
     </div>
 
