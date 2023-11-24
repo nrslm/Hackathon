@@ -113,7 +113,7 @@ export default function Navbar() {
                                     </div>
                                     <div className="hidden sm:ml-6 sm:block">
 
-                                        <div className="flex space-x-4">
+                                        <div className="flex space-x-4 pointer">
                                             {navigation.map((item, i) => (
                                                 <div
                                                     onClick={() => 0 == i ? setOpenBox(true) : null}
@@ -272,7 +272,7 @@ export default function Navbar() {
 
                                                 <div className="mt-8 overflow-auto hover:overflow-scroll h-98">
                                                     <div className="flow-root">
-                                                        <h1>филиалы:</h1>
+                                                        <h1 className=''>филиалы:</h1>
                                                         <ul role="list" className="-my-6 divide-y overflow-auto hover:overflow-scroll pt-6 divide-gray-200 h-56">
                                                             {products.map((product) => (
                                                                 <li key={product.id} className="flex p-2 pt-2  justify-between items-center hover:bg-gray-100">
