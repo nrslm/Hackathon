@@ -34,12 +34,12 @@ function DcoWorker() {
                 <div className="timer">
                     <div className="buttonNextCustemer">
                         <button onClick={() => timer}>
-
+                            Next
                         </button>
                     </div>
                     <div className="outWirking">
                         <button onClick={()=> finished}>
-                            
+                           Finished 
                         </button>
                     </div>
                 </div>
