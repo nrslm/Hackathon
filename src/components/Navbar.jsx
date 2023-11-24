@@ -76,7 +76,7 @@ const people = [
     },
 ]
 export default function Navbar() {
-    const [openBox, setOpenBox] = useState(true)
+    const [openBox, setOpenBox] = useState(false)
     
     const navigation = [
         { name: 'Онлайн очередь', href: '#', current: true, click: null },
