@@ -5,7 +5,6 @@ import { CheckIcon } from '@heroicons/react/20/solid'
 import { fetchData } from './actions/actions';
 import Spiner from './components/Spiner'
 import Navbar from "./components/Navbar"
-
 import SignIn from './components/SignIn';
 import ErrorPage from './pages/ErrorPage';
 import Login from './components/Login';
