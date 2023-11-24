@@ -33,3 +33,22 @@
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
+
+.timer{
+    padding: 10px;
+    display: flex;
+    align-items: flex-start;
+    gap: 32px;
+}
+
+.buttonNextCustemer{
+    border: 1px solid rgb(74, 176, 244);
+    padding: 10px;
+    border-radius: 12px;
+}
+
+.buttonOutWirking{
+    border: 1px solid rgb(74, 176, 244);
+    padding: 10px;
+    border-radius: 12px;
+}

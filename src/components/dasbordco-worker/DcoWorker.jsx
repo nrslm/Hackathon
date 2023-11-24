@@ -37,7 +37,7 @@ function DcoWorker() {
                             Next
                         </button>
                     </div>
-                    <div className="outWirking">
+                    <div className="buttonOutWirking">
                         <button onClick={()=> finished}>
                            Finished 
                         </button>
