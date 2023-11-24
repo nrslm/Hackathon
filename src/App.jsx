@@ -9,6 +9,9 @@ import { Dialog, Transition } from '@headlessui/react'
 import { XMarkIcon } from '@heroicons/react/24/outline'
 import SignIn from './components/SignIn';
 import ErrorPage from './pages/ErrorPage';
+import Login from './components/Login';
+// Import Desctope design with login and register input
+
 const products = [
   {
     id: 1,
@@ -161,6 +164,8 @@ function App() {
 
     // </div>
     <div>
+      {/* Desctope */}
+
       <Navbar />
       <div className="relative overflow-hidden bg-white">
         <div className="pb-80 pt-16 sm:pb-40 sm:pt-24 lg:pb-48 lg:pt-40">
@@ -504,7 +509,6 @@ function App() {
         </ul>
       )}
 
-      <SignIn />
     </div>
 
 
