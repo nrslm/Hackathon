@@ -7,14 +7,6 @@ import ModalAvatar from './modalAvatar/ModalAvatar';
 
 function SignIn() {
 
-    async function changePassword(){
-        fetch('https://orozkg.pythonanywhere.com/api/v1/auth/change_password/', {
-            method:"POST"
-        })
-        .then((response) => response.json())
-        .then()
-    }
-
     const [choiseAvatar,setChoiseAvater] = useState(false)
 
     const handleChoiseAvatar = () =>{
